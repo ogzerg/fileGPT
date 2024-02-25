@@ -2,9 +2,7 @@ import os
 import pytesseract
 import streamlit as st
 from tempfile import TemporaryDirectory
-### Kendim
 from program import Program
-### Kendim
 os.environ["OPENAI_API_KEY"] = "API KEY HERE"
 pytesseract.pytesseract.tesseract_cmd = (
     "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
